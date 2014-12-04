@@ -24,6 +24,9 @@ public class WindowEventDemo extends Frame
  
       Button btnCount = new Button("Count");  // declare and allocate a Button
       add(btnCount);               // "this" Frame adds btnCount
+      
+      Button btnClose = new Button("Close");
+      add(btnClose);
  
       btnCount.addActionListener(this);
         // btnCount fires ActionEvent to its registered ActionEvent listener
@@ -69,4 +72,8 @@ public class WindowEventDemo extends Frame
    public void windowActivated(WindowEvent e) { }
    @Override
    public void windowDeactivated(WindowEvent e) { }
+
+    private void Button(String close) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
